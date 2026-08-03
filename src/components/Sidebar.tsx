@@ -1,14 +1,13 @@
 import { Mail, MapPin, Github, Linkedin, Twitter, Globe } from "lucide-react";
 import { motion } from "motion/react";
 
-const profilePic = "/src/assets/images/professional_portrait_1784148542630.jpg";
+const profilePic = "/src/assets/images/professional_portrait_1784148542630.png";
 
 export default function Sidebar() {
   const socialLinks = [
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Globe, href: "#", label: "Website" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/muhammad-shahmeer-talib-02717b271/", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/shahmeer01", label: "GitHub" },
+    { icon: Twitter, href: "https://x.com/Shahmeer_Talib2", label: "Twitter" },
   ];
 
   return (
@@ -18,16 +17,15 @@ export default function Sidebar() {
       <div className="flex flex-col items-center w-full">
         {/* Profile Photo Container (Reduced to 150px with elegant breathing room) */}
         <div className="w-[150px] h-[150px] rounded-[32px] overflow-hidden mb-6 shadow-lg bg-[#2b2b2c]">
-          <img
+         {/* Profile Photo Container */}
+<div className="w-[150px] h-[150px] rounded-[32px] overflow-hidden mb-6 shadow-lg bg-[#2b2b2c]">
+        <img
             src={profilePic}
             alt="Muhammad Shahmeer Talib"
             className="w-full h-full object-cover scale-[1.15] grayscale opacity-95 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
             referrerPolicy="no-referrer"
-            onError={(e) => {
-              // Fallback if image path is not found in sandbox
-              e.currentTarget.src = "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&h=256&q=80";
-            }}
-          />
+  />
+</div>
         </div>
 
         {/* Name and Title */}
