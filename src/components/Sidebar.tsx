@@ -1,7 +1,7 @@
 import { Mail, MapPin, Github, Linkedin, Twitter, Globe } from "lucide-react";
 import { motion } from "motion/react";
 
-const profilePic = "/src/assets/images/professional_portrait_1784148542630.png";
+const profilePic = "/public/images/profile.png";
 
 export default function Sidebar() {
   const socialLinks = [
