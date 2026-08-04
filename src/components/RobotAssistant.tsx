@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import "./RobotAssistant.css";
 
-const ROBOT_SRC = "https://ibb.co/QWZ1MBg";
+const ROBOT_SRC = "/images/robot/robot-peek.png";
 const EYES_SRC = "/public/images/robot/robot-eyes.png";
 
 const ROBOT_W = 220;
