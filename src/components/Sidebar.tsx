@@ -1,7 +1,7 @@
 import { Mail, MapPin, Github, Linkedin, Twitter, Globe } from "lucide-react";
 import { motion } from "motion/react";
 
-const profilePic = "https://ibb.co/spXjF6gX";
+const profilePic = "/images/profile.png"; // Ensure this path is correct and the image exists
 
 export default function Sidebar() {
   const socialLinks = [
