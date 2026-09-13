@@ -55,7 +55,7 @@ export default function Sidebar() {
             <div className="overflow-hidden flex-1">
               <p className="text-[9px] text-zinc-500 font-mono tracking-wider uppercase">Email</p>
               <span 
-                className="text-[12px] sm:text-[12.5px] text-white group-hover:text-[#ffdb6e] transition-colors font-normal block mt-0.5 break-all leading-snug" 
+                className="text-[12.5px] lg:text-[11px] text-white group-hover:text-[#ffdb6e] transition-colors font-normal block mt-0.5 whitespace-nowrap leading-snug" 
                 title="contact@shahmeertalib.me"
               >
                 contact@shahmeertalib.me
