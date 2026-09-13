@@ -1,6 +1,6 @@
 import { Resend } from "resend";
 
-const TO_EMAIL = process.env.CONTACT_TO_EMAIL || "shahmeertalib5960@gmail.com";
+const TO_EMAIL = process.env.CONTACT_TO_EMAIL || "contact@shahmeertalib.me";
 const FROM_EMAIL = process.env.CONTACT_FROM_EMAIL || "onboarding@resend.dev";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
