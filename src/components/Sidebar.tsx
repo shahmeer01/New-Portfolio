@@ -46,7 +46,7 @@ export default function Sidebar() {
           
           {/* Email Card (py-2.5 px-3.5 for a lighter, less bulky feel) */}
           <a 
-            href="mailto:shahmeertalib5960@gmail.com"
+            href="mailto:contact@shahmeertalib.me"
             className="w-full py-2.5 px-3.5 bg-[#212123]/20 border border-[#38383a]/20 rounded-xl flex items-center gap-3.5 hover:border-[#ffdb6e]/20 transition-all duration-300 group shadow-sm cursor-pointer"
           >
             <div className="w-9 h-9 shrink-0 rounded-lg bg-[#212123] border border-[#38383a]/30 flex items-center justify-center text-[#ffdb6e] group-hover:bg-[#ffdb6e] group-hover:text-zinc-950 transition-all duration-300 shadow-inner">
@@ -56,9 +56,9 @@ export default function Sidebar() {
               <p className="text-[9px] text-zinc-500 font-mono tracking-wider uppercase">Email</p>
               <span 
                 className="text-[13px] text-white group-hover:text-[#ffdb6e] transition-colors font-normal truncate block mt-0.5" 
-                title="Shahmeertalib5960@gmail.com"
+                title="contact@shahmeertalib.me"
               >
-                Shahmeertalib5960@gmail.com
+                contact@shahmeertalib.me
               </span>
             </div>
           </a>
