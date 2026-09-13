@@ -46,7 +46,9 @@ export default function Sidebar() {
           
           {/* Email Card (py-2.5 px-3.5 for a lighter, less bulky feel) */}
           <a 
-            href="mailto:contact@shahmeertalib.me"
+            href={"https://mail.google.com/mail/?view=cm&fs=1&to=contact@shahmeertalib.me&su=" + encodeURIComponent("Project Inquiry")}
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full py-2.5 px-3.5 bg-[#212123]/20 border border-[#38383a]/20 rounded-xl flex items-center gap-3.5 hover:border-[#ffdb6e]/20 transition-all duration-300 group shadow-sm cursor-pointer"
           >
             <div className="w-9 h-9 shrink-0 rounded-lg bg-[#212123] border border-[#38383a]/30 flex items-center justify-center text-[#ffdb6e] group-hover:bg-[#ffdb6e] group-hover:text-zinc-950 transition-all duration-300 shadow-inner">
