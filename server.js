@@ -17,7 +17,7 @@ const app = express();
 app.disable("x-powered-by");
 app.use(express.json({ limit: "10kb" }));
 
-const TO_EMAIL = process.env.CONTACT_TO_EMAIL || "shahmeertalib5960@gmail.com";
+const TO_EMAIL = process.env.CONTACT_TO_EMAIL || "contact@shahmeertalib.me";
 const FROM_EMAIL = process.env.CONTACT_FROM_EMAIL || "onboarding@resend.dev";
 const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
 
